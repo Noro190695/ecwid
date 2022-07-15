@@ -1,0 +1,31 @@
+.placeholder {
+  max-width: 860px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 15px;
+  div {
+    height: 250px;
+    background-color: #e0e0e0;
+    border-radius: 10px;
+    position: relative;
+    overflow: hidden;
+    &:after {
+      content: "";
+      position: absolute;
+      height: 100%;
+      width: 100%;
+      background: linear-gradient(to right,#e0e0e0, #cacaca, #e0e0e0);
+      animation: gradient 1s infinite ease-in-out;
+    }
+  }
+}
+
+@keyframes gradient {
+  0% {
+    left: -100%;
+  }
+
+  100% {
+    left: 100%;
+  }
+}

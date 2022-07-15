@@ -1,0 +1,70 @@
+@import '../../styles/var';
+
+.upload{
+    width: 100%;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(182, 182, 182);
+    margin-bottom: 10px;
+    border-radius: 10px;
+
+    .upload__block{
+        width: 100%;
+        display: flex;
+        align-items: center;
+        flex: 1;        
+        select{
+            padding: 5px 15px;
+        }
+        .input{
+            width: 100%;
+            height: 30px;
+            padding: 5px 10px;
+            margin-right: 10px;
+            border: none;
+            box-shadow: 0 0 5px rgba($color: #000000, $alpha: .3);
+            border-radius: 5px;
+            background-color: #fff;
+            
+            
+        }
+        
+        button{
+            padding: 8px 10px;
+            border: none;
+            background-color: $button-bg;
+            color: #fff;
+            font-weight: bold;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+    }
+}
+
+@media (max-width: 480px) {
+    .upload{
+        flex-direction: column;
+        .upload__block{
+            width: 100%;
+            flex-direction: column;
+            align-items: center;
+            padding: 10px;
+            select{
+                width: 90%;
+                overflow: hidden;
+                option{
+                    width: 250px;
+
+                }
+            }
+            .input{
+                margin: 0;
+                width: 90%;
+            }
+            button{
+                margin-top: 10px;
+            }
+        }
+    }
+}
