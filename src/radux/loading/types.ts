@@ -1,4 +1,0 @@
-export enum types {
-    ENABLE_LOADING = 'ENABLE_LOADING',
-    DISABLE_LOADING = 'DISABLE_LOADING'
-}

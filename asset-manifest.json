@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/ecwid/static/css/main.123e3dfa.css",
+    "main.js": "/ecwid/static/js/main.a44836c2.js",
+    "static/js/787.c860a727.chunk.js": "/ecwid/static/js/787.c860a727.chunk.js",
+    "index.html": "/ecwid/index.html",
+    "main.123e3dfa.css.map": "/ecwid/static/css/main.123e3dfa.css.map",
+    "main.a44836c2.js.map": "/ecwid/static/js/main.a44836c2.js.map",
+    "787.c860a727.chunk.js.map": "/ecwid/static/js/787.c860a727.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.123e3dfa.css",
+    "static/js/main.a44836c2.js"
+  ]
+}
